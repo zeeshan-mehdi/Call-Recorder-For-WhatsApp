@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_main_activity_color"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/setPIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6666"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:inputType="number|numberPassword"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/setNormalPIN"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="127dp"
+        android:background="@drawable/ic_done" />
+
+    <TextView
+        android:id="@+id/textView6666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Set a new PIN code"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/setPIN"
+        android:layout_alignStart="@+id/setPIN"
+        android:layout_below="@+id/setPIN"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:inputType="number|numberPassword"
+        android:textColor="#fff" />
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "895167015476",
+    "firebase_url": "https://any-call-recorder.firebaseio.com",
+    "project_id": "any-call-recorder",
+    "storage_bucket": "any-call-recorder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895167015476:android:9ca57f396189756b",
+        "android_client_info": {
+          "package_name": "com.shaikhutech.callrecorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895167015476-qmrqncd3l0j5hol9b32gr04u1vlcjgo6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi_p7B5_-Ul7XeZA2_gJEUmfkzPoiTIGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895167015476-qmrqncd3l0j5hol9b32gr04u1vlcjgo6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

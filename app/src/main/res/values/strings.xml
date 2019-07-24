@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">Call Recorder for WhatsApp</string>
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-6403649411849064~8310969860</string>
+    <string name="interstitial_ad_unit" translatable="false">ca-app-pub-6403649411849064/5768567000</string>
+    <string name="banner_ad_unit" translatable="false">ca-app-pub-6403649411849064/1507734278</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nulla non purus pharetra rhoncus.
+        Phasellus fringilla consectetur pharetra. Nullam lacus velit,
+        imperdiet vel odio sed, pretium porttitor nibh. Nam vel eleifend purus, eu luctus ligula.
+        Mauris eu diam diam. Sed nulla ligula, porttitor ac velit in, interdum lobortis neque.
+        Aliquam hendrerit justo massa, sit amet pellentesque velit volutpat a.
+        Maecenas at dapibus massa. Nam in efficitur elit,
+        sed interdum enim. Nullam lorem quam, mollis quis velit ac, lacinia pulvinar felis.
+    </string>
+    <string name="search">Search</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">Pharid Ali</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Speaker Mic</item>
+        <item>Mic</item>
+        <item>Voice Commmunication</item>
+        <item>Voice Recogintion</item>
+        <item>Voice Call</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="search_hint">enter number or name</string>
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_navigation">navigation</string>
+
+    <string name="navigation_drawer_open">Open Menu drawer</string>
+    <string name="navigation_drawer_close">Close Menu drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="recoring_issue">Please remove any other call recording apps and apply setting from the setting option.Apply setting to change various audio source.
+    If default option does not work choose speaker option which gaurentees your call record.</string>
+    <string name="issue_2">Some phones don\'t support call recording regardless the setting you apply.But you can still choose speaker with mic option to record call.</string>
+
+    <!-- App Locker Text Started -->
+    <string name="enter_pattern">Draw your pattern</string>
+    <string name="wrong_pattern">Wrong Pattern</string>
+    <string name="wrong_pin">Wrong PIN</string>
+    <string name="entered_successfully">Entered successfully</string>
+    <string name="enter_failed">Wrong password</string>
+    <string name="please_give_usage_Stats">Please give usage stats permission, we need this for locking apps.</string>
+    <string name="all_apps_unlocked">All apps unlocked</string>
+    <string name="all_apps_locked">All apps locked</string>
+    <string name="date">Date</string>
+    <string name="entered_app">App:</string>
+    <string name="pin_setted">PIN has been setted successfully</string>
+    <string name="uninstall_protect_is_active">Uninstall protect is active</string>
+    <string name="uninstall_protect_is_not_active">Uninstall protect is not active\n Tap for active it</string>
+    <string name="select_lock_type">Select your lock type</string>
+    <string name="help_time_pin">Time based PIN code. For example time is 12:45 (24 hours) , PIN is 5421</string>
+    <string name="not_matched">Passwords not matched</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_locked_apps">Reset Locked Apps</string>
+    <string name="req">Please give device admin permission for prevent uninstall and keep privacy</string>
+    <string name="pattern">Pattern</string>
+    <string name="pin">PIN</string>
+    <string name="next">Next</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="slogan">Ever for better security</string>
+    <string name="logs">Logs</string>
+    <string name="security">Security</string>
+    <string name="App_Lock">App Locker</string>
+    <string name="shared_pref_saving_pref_key">SAVE_OPTIONS</string>
+    <string name="shared_pref_recording_quality_pref_key">RECORDING_QUALITY</string>
+    <string name="records_refreshed">Records refreshed</string>
+    <string name="add_to_favourites_text">Add to Favourites</string>
+    <string name="remove_favourites_text">Remove from Favourites</string>
+    <string name="add_to_protected_mode">Add app to protected mode?</string>
+    <string name="add_to_protected_mode_positive">Add</string>
+    <string name="add_to_protected_mode_negative">Cancel</string>
+    <string name="protected_mode_title">Protected Mode</string>
+    <string name="no_records_message">Why not have a try and record call now.</string>
+    <string name="navigation_drawer_faq">FAQ\'s</string>
+    <string name="action_menu_select_all">Select All</string>
+    <string name="settings_option_save_recording">Saving Options</string>
+    <string name="settings_option_recording_quality">Recording Quality</string>
+    <string name="recording_turned_on">Recording turned On</string>
+    <string name="recording_turned_off">Recording turned Off</string>
+    <string name="added_to_favourites">Added to Favourites</string>
+    <string name="removed_from_favourites">Removed from Favourites</string>
+    <string name="recording_deleted">Recording deleted successfully</string>
+    <string name="recording_deletion_failed">Deletion failed</string>
+    <string name="enter_four_digit_pin">Enter 4 digit Pin</string>
+    <string name="pin_mismatch">Pin mismatch</string>
+    <string name="incorrect_pin">Incorrect Pin</string>
+    <string name="please_set_pin">Please set up Pin</string>
+    <string name="pin_updated">Pin updated successfully</string>
+    <string name="pin_saved">Pin saved successfully</string>
+
+    <string-array name="pref_recording_quality_options">
+        <item>Very High</item>
+        <item>Normal(Recommended)</item>
+    </string-array>
+    <string-array name="pref_save_recording_list_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pref_recording_quality_list_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pref_saving_recording_options">
+        <item>Automatically save</item>
+        <item>Don\'t save</item>
+    </string-array>
+
+    <!-- App Locker Text Ended -->
+
+    <!-- Splash Windows Text started-->
+    <string name="all_rights_reserved">Copyright © 2018 WhatsApp Call Recorder. All Rights Reserved.</string>
+    <string name="support">Support</string>
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="messenger">Messenger</string>
+    <string name="email">EMail</string>
+    <string name="others">Others</string>
+    <string name="rate">Rate App</string>
+    <string name="exit">Exit</string>
+    <string name="tapAgain">Tap Again</string>
+    <string name="no_internet">No Internet Found</string>
+    <string name="connect">Connect to the Internet</string>
+    <string name="share_text">Share this App</string>
+    <string name="close_prompt">Are you sure you want to Close ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="install_messenger">Messenger not Found Please Install</string>
+
+    <!-- Splash Windows Text ended-->
+</resources>

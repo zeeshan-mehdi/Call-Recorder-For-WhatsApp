@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/re"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_card"
+    android:orientation="vertical">
+
+    <com.amnix.materiallockview.MaterialLockView xmlns:lockview="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/enterPatternLockView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        lockview:CORRECT_COLOR="@color/bright_blue"
+        lockview:LOCK_COLOR="@color/card_black_color"
+        lockview:WRONG_COLOR="#ff0000" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/enterPatternLockView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/enter_pattern"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/card_black_color"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/appIconPattern"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/abc" />
+
+    <TextureView
+        android:id="@+id/texture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/appNamePattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appIconPattern"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/card_black_color"
+        android:textStyle="bold" />
+
+</RelativeLayout>

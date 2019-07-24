@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Security">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="LOCK"
+            android:summary="Toogle switch to enable app lock. "
+            android:title="App lock" />
+        <Preference
+            android:key="changepassword"
+            android:title="Change Lock Password"
+            android:summary="Click to change the Pattern / Pin."/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Advance">
+
+
+        <Preference
+            android:key="DIRECTORY"
+            android:summary="Directory to store recording"
+            android:title="Choose Directory" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_example_list_titles"
+        android:entryValues="@array/pref_example_list_values"
+        android:key="RECORDER"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Select Recording Source" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_saving_recording_options"
+            android:entryValues="@array/pref_save_recording_list_values"
+            android:key="@string/shared_pref_saving_pref_key"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/settings_option_save_recording" />
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_recording_quality_options"
+            android:entryValues="@array/pref_recording_quality_list_values"
+            android:key="@string/shared_pref_recording_quality_pref_key"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/settings_option_recording_quality" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="NOTIFY"
+            android:title="Enable Notification" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:enabled="false"
+            android:key="UNLIMITED"
+            android:summary="Disable to limit recordings to 300 only except for favourite contacts."
+            android:title="Unlimited Recordings"
+            android:visibility="gone" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

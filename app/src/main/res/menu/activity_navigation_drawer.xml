@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Select Option">
+        <menu>
+            <item
+                android:id="@+id/fav"
+                android:icon="@drawable/favorite"
+                android:title="Favourite" />
+            <item android:id="@+id/recording_issue"
+                android:icon="@drawable/ic_error_black_24dp"
+                android:title="Recording Issue"/>
+            <item
+                android:id="@+id/updatecontact"
+                android:icon="@drawable/ic_sync_black_24dp"
+                android:title="Update Database"
+                android:visible="false" />
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Setting" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_002_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/rate_us"
+                android:icon="@drawable/ic_001_rating"
+                android:title="Rate us" />
+        </menu>
+    </item>
+
+    <item android:title="@string/support">
+        <menu>
+
+            <item
+                android:id="@+id/action_email"
+                android:icon="@drawable/ic_email"
+                android:title="@string/email" />
+
+            <item
+                android:id="@+id/tutorial"
+                android:icon="@drawable/tutorial"
+                android:title="Tutorial" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/action_rate_app"
+                android:icon="@drawable/ic_rating"
+                android:title="@string/rate" />
+
+
+            <item
+                android:id="@+id/action_exit"
+                android:icon="@drawable/ic_exit"
+                android:title="@string/exit" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,692 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:97:9-105:20
+	android:grantUriPermissions
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:101:13-47
+	android:authorities
+		INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:99:13-60
+	android:exported
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:100:13-37
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:98:13-62
+manifest
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:2:1-149:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\d981370e93b6382605481190a422c0ac\AndroidManifest.xml:17:1-24:12
+MERGED from [com.andrognito.flashbar:flashbar:1.0.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\baa23bfa2a9b07a69abff857b71b1a2c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.alimuzaffar.lib:pinentryedittext:1.3.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9650aae9a7846befe78a1d97769b908d\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.AmniX:MaterialPatternllockView:7a45dcaa79] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\2abec8c61cd03bc2f45adc381a3092bd\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\f47b8a2f7fb07678429965c2bba573b0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\bf9a8db5caa82a6bb3f3deaf0bb54c73\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\c50f468faafefe9089065953b59d0e7e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\5d3eaffb6d61fb243dd2733fa5d07ae4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\69273b0cf04c5d0af85879335ef2c1e1\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-ads:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\154424a9a12a989727748fffc4d3d976\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\14c6987f50fc95c2266e164af6d7f7b7\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\26490d6a8f437b0902f251710db01a0d\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\080b4f6bcdf31047d40dcf56bdcccb95\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\02576446b41ec5b6fe6269a6fbb73931\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\522bfd0d95a5fb3676d2072571b873d2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\708086e2d426c0586e52deae4e6c08a6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-gass:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\b6822c26279b7744a516d1083d557a1b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\f852610b0f0d15e98334897c1d50bf96\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94c01926f08a085492b41aebcb7d95a9\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\c2e4bf643104b77d5e77755d72e79af5\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\139ca37153bdbdd903eb9ac14abce422\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\ad3e74d41f2dfe497207d2743d406e64\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\02e8ab2948c855cbde768fee59849c4f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\c9b2258dc4ad943c168319e66b505bc0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.yqritc:recyclerview-flexibledivider:1.4.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\85f7c9aa793320390bb49b6e1891081f\AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\3233664aa4bc172aab0cb1e270546d7b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.microsoft.onedrivesdk:onedrive-picker-android:v2.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\5d4a693fafe8e68b8886d6120cd14b53\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jaredrummler:android-device-names:1.1.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\dbc6f88312579c0a91cc730516f767ee\AndroidManifest.xml:2:1-9:12
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94167323fe956db7e3107df7ad24cbcd\AndroidManifest.xml:2:1-13:12
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\f1eadf50a5715d57941ac1057969c63d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.scottyab:aescrypt:0.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\4547aaa022a9a1adde1a46bacf7b73d4\AndroidManifest.xml:2:1-12:12
+MERGED from [net.rdrei.android.dirchooser:library:3.2] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\aa1fa7a8afa72a8a574670cf2598da51\AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\31efdeae106ebd87d0b113245d2730bf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\07ebe35ecb8fb8c1903375b9501140d1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\97c93b524adf92bdf6bb6d5f57f7fc0d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\92287869c1e41b89e60ad9e8cf14ba65\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\b4c31f51695dcf62d4476c85e759318b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\52ef6a54bfaf43cdcb82f09266f3e1e1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\6b601c742acae8369c9b054b9ae892b1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\8230a1b51da0fa85414ed2892b7a569f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\2cdd67b4bd8355ee0dec676bff80ace5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9a89c0581d11acfc6a00be5c18edd957\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\cdb8ebb86142a544c1155eb722498e01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\ddec81a6f9b3fbe38c0b9ffb1e44000b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\4cc89ec6d337de162f96a07014512807\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\258886868503b6c7df69e3bea9fb365e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\06628dcff9806d21c4babcfb3d3197df\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\5ea65fe2c87cf8cb9386e0e7c11f80fd\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\de9078bc7243357ab0acb9d039d589d5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\dbde934425718922edde528ff78dd66f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\b09c416a258a0b212c648d1994681ab6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\583fe6c6eb15aa119c859d0b70c34c6e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\dd1fecc5cb79efc4c5b390b23419181d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e1b61948575595ef90db996262ce7f1f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\1cfa34d5145ac1998e09bd8891516cae\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\0794587ac3bccfc5b44e2334dd70392c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\4b49e79a69d47b3a0476720ba40d443a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\69ec79ff9f58b696ef2a31b8d579995a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9868f735e747c6edf77552b63777b4d5\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:2:1-149:12
+	package
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:4:5-43
+		INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:2:1-149:12
+		INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:2:1-149:12
+		INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:7:5-72
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:7:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:8:5-73
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:8:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:10:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.ANSWER_PHONE_CALLS
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:13:22-74
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:14:5-85
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:14:22-82
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:16:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94c01926f08a085492b41aebcb7d95a9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94c01926f08a085492b41aebcb7d95a9\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:18:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94c01926f08a085492b41aebcb7d95a9\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94c01926f08a085492b41aebcb7d95a9\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:19:22-77
+uses-permission#android.permission.STORAGE
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:20:22-63
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:21:5-77
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:21:22-74
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:22:5-78
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:22:22-75
+application
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:24:5-147:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\d981370e93b6382605481190a422c0ac\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\d981370e93b6382605481190a422c0ac\AndroidManifest.xml:22:5-20
+MERGED from [com.alimuzaffar.lib:pinentryedittext:1.3.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9650aae9a7846befe78a1d97769b908d\AndroidManifest.xml:11:5-15:19
+MERGED from [com.alimuzaffar.lib:pinentryedittext:1.3.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9650aae9a7846befe78a1d97769b908d\AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\5d3eaffb6d61fb243dd2733fa5d07ae4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\5d3eaffb6d61fb243dd2733fa5d07ae4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\69273b0cf04c5d0af85879335ef2c1e1\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\69273b0cf04c5d0af85879335ef2c1e1\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\14c6987f50fc95c2266e164af6d7f7b7\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\14c6987f50fc95c2266e164af6d7f7b7\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\26490d6a8f437b0902f251710db01a0d\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\26490d6a8f437b0902f251710db01a0d\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\080b4f6bcdf31047d40dcf56bdcccb95\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\080b4f6bcdf31047d40dcf56bdcccb95\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\02576446b41ec5b6fe6269a6fbb73931\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\02576446b41ec5b6fe6269a6fbb73931\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\522bfd0d95a5fb3676d2072571b873d2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\522bfd0d95a5fb3676d2072571b873d2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\708086e2d426c0586e52deae4e6c08a6\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\708086e2d426c0586e52deae4e6c08a6\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-gass:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\b6822c26279b7744a516d1083d557a1b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\b6822c26279b7744a516d1083d557a1b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\f852610b0f0d15e98334897c1d50bf96\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\f852610b0f0d15e98334897c1d50bf96\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94c01926f08a085492b41aebcb7d95a9\AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94c01926f08a085492b41aebcb7d95a9\AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\c2e4bf643104b77d5e77755d72e79af5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\c2e4bf643104b77d5e77755d72e79af5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\139ca37153bdbdd903eb9ac14abce422\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\139ca37153bdbdd903eb9ac14abce422\AndroidManifest.xml:22:5-26:19
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\3233664aa4bc172aab0cb1e270546d7b\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\3233664aa4bc172aab0cb1e270546d7b\AndroidManifest.xml:9:5-20
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94167323fe956db7e3107df7ad24cbcd\AndroidManifest.xml:11:5-20
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94167323fe956db7e3107df7ad24cbcd\AndroidManifest.xml:11:5-20
+MERGED from [com.scottyab:aescrypt:0.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\4547aaa022a9a1adde1a46bacf7b73d4\AndroidManifest.xml:10:5-20
+MERGED from [com.scottyab:aescrypt:0.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\4547aaa022a9a1adde1a46bacf7b73d4\AndroidManifest.xml:10:5-20
+MERGED from [net.rdrei.android.dirchooser:library:3.2] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\aa1fa7a8afa72a8a574670cf2598da51\AndroidManifest.xml:9:5-13:19
+MERGED from [net.rdrei.android.dirchooser:library:3.2] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\aa1fa7a8afa72a8a574670cf2598da51\AndroidManifest.xml:9:5-13:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\06628dcff9806d21c4babcfb3d3197df\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\06628dcff9806d21c4babcfb3d3197df\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\5ea65fe2c87cf8cb9386e0e7c11f80fd\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\5ea65fe2c87cf8cb9386e0e7c11f80fd\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9868f735e747c6edf77552b63777b4d5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9868f735e747c6edf77552b63777b4d5\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\06628dcff9806d21c4babcfb3d3197df\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from [com.alimuzaffar.lib:pinentryedittext:1.3.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9650aae9a7846befe78a1d97769b908d\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:27:9-41
+	tools:ignore
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:30:9-48
+	android:largeHeap
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:28:9-33
+	android:icon
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:26:9-43
+	android:allowBackup
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:25:9-35
+	android:theme
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:29:9-40
+		REJECTED from [net.rdrei.android.dirchooser:library:3.2] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\aa1fa7a8afa72a8a574670cf2598da51\AndroidManifest.xml:9:18-62
+	tools:replace
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:31:9-51
+activity#com.shaikhutech.callrecorder.TutorialActivity
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:32:9-63
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:32:19-51
+receiver#com.shaikhutech.callrecorder.BroadcastReciver.NetworkStateReceiver
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:34:9-38:20
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:34:19-72
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:35:13-37:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:36:17-79
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:36:25-76
+receiver#com.shaikhutech.callrecorder.BroadcastReciver.RestartServiceReceiver
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:39:9-43:20
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:39:19-74
+intent-filter#action:name:YouWillNeverKillMe
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:40:13-42:29
+action#YouWillNeverKillMe
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:41:17-61
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:41:25-58
+service#com.shaikhutech.callrecorder.service.CallDetectionService
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:45:9-50:52
+	android:screenOrientation
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:49:13-49
+	android:enabled
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:47:13-35
+	android:launchMode
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:48:13-48
+	android:stopWithTask
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:50:13-41
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:46:13-57
+activity#com.shaikhutech.callrecorder.SettingsActivity2
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:52:9-55:58
+	android:parentActivityName
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:55:13-55
+	android:label
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:54:13-60
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:53:13-46
+activity#com.shaikhutech.callrecorder.SearchResultsActivity
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:56:9-68
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:56:19-56
+activity#com.shaikhutech.callrecorder.ListenActivity
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:57:9-59:55
+	android:parentActivityName
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:59:13-52
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:58:13-43
+activity#com.shaikhutech.callrecorder.Splash_Activity
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:60:9-68:20
+	android:theme
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:62:13-47
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:61:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:63:13-67:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:64:17-69
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:64:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:66:17-77
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:66:27-74
+activity#com.shaikhutech.callrecorder.Recording_issue
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:69:9-71:67
+	android:parentActivityName
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:71:13-55
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:70:13-44
+activity#com.shaikhutech.callrecorder.MainActivity
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:72:9-83:20
+	android:launchMode
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:74:13-43
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:73:13-41
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:75:13-77:29
+action#android.intent.action.SEARCH
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:76:17-71
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:76:25-68
+meta-data#android.app.default_searchable
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:79:13-82:58
+	android:resource
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:81:17-51
+	android:value
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:82:17-55
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:80:17-62
+activity#com.shaikhutech.callrecorder.Favourite
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:84:9-86:58
+	android:parentActivityName
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:86:13-55
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:85:13-38
+activity#com.shaikhutech.callrecorder.EnterActivity
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:87:9-51
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:87:19-48
+activity#com.shaikhutech.callrecorder.EnterNormalPIN
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:88:9-52
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:88:19-49
+activity#com.shaikhutech.callrecorder.EnterPatternLock
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:89:9-54
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:89:19-51
+activity#com.shaikhutech.callrecorder.locker.SetLockTypeActivity
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:90:9-64
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:90:19-61
+activity#com.shaikhutech.callrecorder.locker.SetNormalPIN
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:91:9-57
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:91:19-54
+activity#com.shaikhutech.callrecorder.locker.SetPatternLockActivity
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:92:9-67
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:92:19-64
+activity#com.shaikhutech.callrecorder.Main2Activity
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:93:9-95:46
+	android:theme
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:95:13-43
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:94:13-42
+activity#net.rdrei.android.dirchooser.DirectoryChooserActivity
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:107:9-110:60
+	android:screenOrientation
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:109:13-49
+	android:theme
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:110:13-57
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:108:13-81
+receiver#com.shaikhutech.callrecorder.DeviceAdmin.DeviceAdmin
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:112:9-127:20
+	android:permission
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:114:13-70
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:113:13-52
+meta-data#android.app.device_admin
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:115:13-117:52
+	android:resource
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:117:17-49
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:116:17-56
+intent-filter#action:name:android.app.action.DEVICE_ADMIN_DISABLED+action:name:android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED+action:name:android.app.action.DEVICE_ADMIN_ENABLED+action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.HOME
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:119:13-126:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:120:17-82
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:120:25-79
+action#android.app.action.DEVICE_ADMIN_DISABLED
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:121:17-83
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:121:25-80
+action#android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:122:17-92
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:122:25-89
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:123:17-79
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:123:25-76
+category#android.intent.category.HOME
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:125:17-73
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:125:27-70
+service#com.shaikhutech.callrecorder.service.MyFirebaseMessagingService
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:129:9-133:19
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:129:18-68
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:130:13-132:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:131:17-78
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:131:25-75
+service#com.shaikhutech.callrecorder.service.MyFirebaseInstanceIDService
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:134:9-138:19
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:134:18-69
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:135:13-137:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:136:17-80
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:136:25-77
+service#com.shaikhutech.callrecorder.ButtonService
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:139:9-142:39
+	android:enabled
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:141:13-35
+	android:exported
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:142:13-36
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:140:13-42
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:144:9-146:52
+	android:value
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:146:13-49
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:145:13-69
+uses-sdk
+INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\d981370e93b6382605481190a422c0ac\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\d981370e93b6382605481190a422c0ac\AndroidManifest.xml:20:5-44
+MERGED from [com.andrognito.flashbar:flashbar:1.0.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\baa23bfa2a9b07a69abff857b71b1a2c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.andrognito.flashbar:flashbar:1.0.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\baa23bfa2a9b07a69abff857b71b1a2c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.alimuzaffar.lib:pinentryedittext:1.3.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9650aae9a7846befe78a1d97769b908d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.alimuzaffar.lib:pinentryedittext:1.3.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9650aae9a7846befe78a1d97769b908d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.AmniX:MaterialPatternllockView:7a45dcaa79] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\2abec8c61cd03bc2f45adc381a3092bd\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.AmniX:MaterialPatternllockView:7a45dcaa79] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\2abec8c61cd03bc2f45adc381a3092bd\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\f47b8a2f7fb07678429965c2bba573b0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\f47b8a2f7fb07678429965c2bba573b0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\bf9a8db5caa82a6bb3f3deaf0bb54c73\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\bf9a8db5caa82a6bb3f3deaf0bb54c73\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\c50f468faafefe9089065953b59d0e7e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\c50f468faafefe9089065953b59d0e7e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\5d3eaffb6d61fb243dd2733fa5d07ae4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\5d3eaffb6d61fb243dd2733fa5d07ae4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\69273b0cf04c5d0af85879335ef2c1e1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\69273b0cf04c5d0af85879335ef2c1e1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\154424a9a12a989727748fffc4d3d976\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\154424a9a12a989727748fffc4d3d976\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\14c6987f50fc95c2266e164af6d7f7b7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\14c6987f50fc95c2266e164af6d7f7b7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\26490d6a8f437b0902f251710db01a0d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\26490d6a8f437b0902f251710db01a0d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\080b4f6bcdf31047d40dcf56bdcccb95\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\080b4f6bcdf31047d40dcf56bdcccb95\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\02576446b41ec5b6fe6269a6fbb73931\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\02576446b41ec5b6fe6269a6fbb73931\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\522bfd0d95a5fb3676d2072571b873d2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\522bfd0d95a5fb3676d2072571b873d2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\708086e2d426c0586e52deae4e6c08a6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\708086e2d426c0586e52deae4e6c08a6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\b6822c26279b7744a516d1083d557a1b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\b6822c26279b7744a516d1083d557a1b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\f852610b0f0d15e98334897c1d50bf96\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\f852610b0f0d15e98334897c1d50bf96\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94c01926f08a085492b41aebcb7d95a9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94c01926f08a085492b41aebcb7d95a9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\c2e4bf643104b77d5e77755d72e79af5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\c2e4bf643104b77d5e77755d72e79af5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\139ca37153bdbdd903eb9ac14abce422\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\139ca37153bdbdd903eb9ac14abce422\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\ad3e74d41f2dfe497207d2743d406e64\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\ad3e74d41f2dfe497207d2743d406e64\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\02e8ab2948c855cbde768fee59849c4f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\02e8ab2948c855cbde768fee59849c4f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\c9b2258dc4ad943c168319e66b505bc0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\c9b2258dc4ad943c168319e66b505bc0\AndroidManifest.xml:20:5-44
+MERGED from [com.yqritc:recyclerview-flexibledivider:1.4.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\85f7c9aa793320390bb49b6e1891081f\AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:recyclerview-flexibledivider:1.4.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\85f7c9aa793320390bb49b6e1891081f\AndroidManifest.xml:8:5-10:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\3233664aa4bc172aab0cb1e270546d7b\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\3233664aa4bc172aab0cb1e270546d7b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.microsoft.onedrivesdk:onedrive-picker-android:v2.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\5d4a693fafe8e68b8886d6120cd14b53\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.onedrivesdk:onedrive-picker-android:v2.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\5d4a693fafe8e68b8886d6120cd14b53\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jaredrummler:android-device-names:1.1.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\dbc6f88312579c0a91cc730516f767ee\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jaredrummler:android-device-names:1.1.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\dbc6f88312579c0a91cc730516f767ee\AndroidManifest.xml:5:5-7:41
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94167323fe956db7e3107df7ad24cbcd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94167323fe956db7e3107df7ad24cbcd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\f1eadf50a5715d57941ac1057969c63d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\f1eadf50a5715d57941ac1057969c63d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scottyab:aescrypt:0.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\4547aaa022a9a1adde1a46bacf7b73d4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.scottyab:aescrypt:0.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\4547aaa022a9a1adde1a46bacf7b73d4\AndroidManifest.xml:6:5-8:41
+MERGED from [net.rdrei.android.dirchooser:library:3.2] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\aa1fa7a8afa72a8a574670cf2598da51\AndroidManifest.xml:5:5-7:41
+MERGED from [net.rdrei.android.dirchooser:library:3.2] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\aa1fa7a8afa72a8a574670cf2598da51\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\31efdeae106ebd87d0b113245d2730bf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\31efdeae106ebd87d0b113245d2730bf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\07ebe35ecb8fb8c1903375b9501140d1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\07ebe35ecb8fb8c1903375b9501140d1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\97c93b524adf92bdf6bb6d5f57f7fc0d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\97c93b524adf92bdf6bb6d5f57f7fc0d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\92287869c1e41b89e60ad9e8cf14ba65\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\92287869c1e41b89e60ad9e8cf14ba65\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\b4c31f51695dcf62d4476c85e759318b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\b4c31f51695dcf62d4476c85e759318b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\52ef6a54bfaf43cdcb82f09266f3e1e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\52ef6a54bfaf43cdcb82f09266f3e1e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\6b601c742acae8369c9b054b9ae892b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\6b601c742acae8369c9b054b9ae892b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\8230a1b51da0fa85414ed2892b7a569f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\8230a1b51da0fa85414ed2892b7a569f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\2cdd67b4bd8355ee0dec676bff80ace5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\2cdd67b4bd8355ee0dec676bff80ace5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9a89c0581d11acfc6a00be5c18edd957\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9a89c0581d11acfc6a00be5c18edd957\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\cdb8ebb86142a544c1155eb722498e01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\cdb8ebb86142a544c1155eb722498e01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\ddec81a6f9b3fbe38c0b9ffb1e44000b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\ddec81a6f9b3fbe38c0b9ffb1e44000b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\4cc89ec6d337de162f96a07014512807\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\4cc89ec6d337de162f96a07014512807\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\258886868503b6c7df69e3bea9fb365e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\258886868503b6c7df69e3bea9fb365e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\06628dcff9806d21c4babcfb3d3197df\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\06628dcff9806d21c4babcfb3d3197df\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\5ea65fe2c87cf8cb9386e0e7c11f80fd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\5ea65fe2c87cf8cb9386e0e7c11f80fd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\de9078bc7243357ab0acb9d039d589d5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\de9078bc7243357ab0acb9d039d589d5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\dbde934425718922edde528ff78dd66f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\dbde934425718922edde528ff78dd66f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\b09c416a258a0b212c648d1994681ab6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\b09c416a258a0b212c648d1994681ab6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\583fe6c6eb15aa119c859d0b70c34c6e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\583fe6c6eb15aa119c859d0b70c34c6e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\dd1fecc5cb79efc4c5b390b23419181d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\dd1fecc5cb79efc4c5b390b23419181d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e1b61948575595ef90db996262ce7f1f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e1b61948575595ef90db996262ce7f1f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\1cfa34d5145ac1998e09bd8891516cae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\1cfa34d5145ac1998e09bd8891516cae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\0794587ac3bccfc5b44e2334dd70392c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\0794587ac3bccfc5b44e2334dd70392c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\4b49e79a69d47b3a0476720ba40d443a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\4b49e79a69d47b3a0476720ba40d443a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\69ec79ff9f58b696ef2a31b8d579995a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\69ec79ff9f58b696ef2a31b8d579995a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9868f735e747c6edf77552b63777b4d5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\9868f735e747c6edf77552b63777b4d5\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\154424a9a12a989727748fffc4d3d976\AndroidManifest.xml:23:9-49
+	android:targetSdkVersion
+		INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:102:13-104:58
+	android:resource
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:104:17-55
+	android:name
+		ADDED from C:\Users\zeesh\Downloads\OneDrive_2019-07-04\Abc Call Recorder Project 1.3\Abc Call Recorder\app\src\main\AndroidManifest.xml:103:17-67
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\69273b0cf04c5d0af85879335ef2c1e1\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\69273b0cf04c5d0af85879335ef2c1e1\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\69273b0cf04c5d0af85879335ef2c1e1\AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94c01926f08a085492b41aebcb7d95a9\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\94c01926f08a085492b41aebcb7d95a9\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:26:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\e57be6ec1b972f2461d4b22ee5a826b5\AndroidManifest.xml:51:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\14c6987f50fc95c2266e164af6d7f7b7\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\14c6987f50fc95c2266e164af6d7f7b7\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\14c6987f50fc95c2266e164af6d7f7b7\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\14c6987f50fc95c2266e164af6d7f7b7\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\14c6987f50fc95c2266e164af6d7f7b7\AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\080b4f6bcdf31047d40dcf56bdcccb95\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\080b4f6bcdf31047d40dcf56bdcccb95\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\080b4f6bcdf31047d40dcf56bdcccb95\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\080b4f6bcdf31047d40dcf56bdcccb95\AndroidManifest.xml:24:13-79
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\128afb2d90ad78f433c13755d3637e9f\AndroidManifest.xml:36:13-76
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\139ca37153bdbdd903eb9ac14abce422\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\139ca37153bdbdd903eb9ac14abce422\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\139ca37153bdbdd903eb9ac14abce422\AndroidManifest.xml:24:13-58
+meta-data#string
+ADDED from [net.rdrei.android.dirchooser:library:3.2] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\aa1fa7a8afa72a8a574670cf2598da51\AndroidManifest.xml:10:9-12:38
+	android:value
+		ADDED from [net.rdrei.android.dirchooser:library:3.2] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\aa1fa7a8afa72a8a574670cf2598da51\AndroidManifest.xml:12:13-35
+	android:name
+		ADDED from [net.rdrei.android.dirchooser:library:3.2] C:\Users\zeesh\.gradle\caches\transforms-2\files-2.1\aa1fa7a8afa72a8a574670cf2598da51\AndroidManifest.xml:11:13-34

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673ab7</color>
+    <color name="colorPrimaryDark">#320b86</color>
+    <color name="splash">#ba0000</color>
+    <color name="primary_light">#F8BBD0</color>
+    <color name="colorAccent">#9a67ea</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#bdbdbd</color>
+    <color name="cyan">#00a99d</color>
+    <color name="cyan_dark">#00847a</color>
+    <!--fragments color-->
+    <color name="dark_green">#133923</color>
+    <color name="smooth_red">#2196F3</color>
+    <color name="smooth_red_dark">#424242</color>
+    <color name="light_green">#97C85B</color>
+    <color name="light_brown">#BB86FC</color>
+    <color name="pink">#D279BE</color>
+    <color name="light_blue">#6200EE</color>
+    <color name="light_blue_dark">#3700B3</color>
+    //card color
+    <color name="card_black_color"></color>
+    <color name="color_fragment">#e9ebee</color>
+    <color name="color_card">#ffffff</color>
+    <color name="bright_blue">#00bcd4</color>
+
+    <color name="colorControlActivated">@android:color/holo_blue_light</color>
+    <color name="yellow">#fffc00</color>
+    <color name="blue">#0099CC</color>
+</resources>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/smooth_red"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/action_bar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            <!--app:tabSelectedTextColor="@color/secondary_text"-->
+            <RelativeLayout
+                android:id="@+id/bg"
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/avi"
+                    style="@style/AVLoadingIndicatorView.Large"
+                    android:layout_width="118dp"
+                    android:layout_height="118dp"
+                    android:layout_centerInParent="true"
+                    android:visibility="visible"
+                    app:indicatorColor="#ffffff"
+                    app:indicatorName="LineScalePulseOutRapidIndicator" />
+
+                <com.skyfishjy.library.RippleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:visibility="gone"
+                    app:rb_color="#0099CC"
+                    app:rb_duration="5000"
+                    app:rb_radius="32dp"
+                    app:rb_rippleAmount="1"
+                    app:rb_scale="3">
+
+                    <ImageView
+                        android:id="@+id/imgv"
+                        android:layout_width="230dp"
+                        android:layout_height="95dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/frequent"
+                        android:visibility="visible" />
+
+
+                </com.skyfishjy.library.RippleBackground>
+
+            </RelativeLayout>
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/admob_adview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit">
+
+
+            </com.google.android.gms.ads.AdView>
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_card"
+                android:elevation="2dp"
+                tools:targetApi="lollipop">
+
+                <TextView
+                    android:id="@+id/setup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/bright_blue"
+                    android:gravity="center_horizontal"
+                    android:text="Setup your pin"
+                    android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                    android:textColor="@color/color_card"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_card"
+                android:elevation="2dp"
+                tools:targetApi="lollipop">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="17dp"
+                        android:paddingRight="17dp">
+
+                        <TextView
+                            android:id="@+id/pin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Enter pin"
+                            android:textAppearance="@android:style/TextAppearance.Material.Caption"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            tools:targetApi="lollipop" />
+
+                        <com.alimuzaffar.lib.pin.PinEntryEditText
+                            android:id="@+id/txt_pin_entry"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:cursorVisible="true"
+                            android:digits="1234567890"
+                            android:inputType="number"
+                            android:maxLength="4"
+                            android:textIsSelectable="true"
+                            android:textSize="20sp"
+                            app:pinAnimationType="popIn"
+                            app:pinBackgroundDrawable="@drawable/back"
+                            app:pinCharacterMask="*"
+                            app:pinLineStroke="2dp"
+                            app:pinLineStrokeSelected="4dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="17dp"
+                        android:paddingRight="17dp">
+
+                        <TextView
+                            android:id="@+id/confirm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Confirm pin"
+                            android:textAppearance="@android:style/TextAppearance.Material.Caption"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            tools:targetApi="lollipop" />
+
+                        <com.alimuzaffar.lib.pin.PinEntryEditText
+                            android:id="@+id/txt_pin_entry2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:cursorVisible="true"
+                            android:digits="1234567890"
+                            android:inputType="number"
+                            android:maxLength="4"
+                            android:singleLine="true"
+                            android:textIsSelectable="true"
+                            android:textSize="20sp"
+                            app:pinAnimationType="popIn"
+                            app:pinBackgroundDrawable="@drawable/back"
+                            app:pinCharacterMask="*"
+                            app:pinLineStroke="2dp"
+                            app:pinLineStrokeSelected="4dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginTop="7dp"
+                android:background="@color/color_card"
+                android:elevation="2dp"
+                tools:targetApi="lollipop">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/set"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginRight="22dp"
+                        android:background="@drawable/custom_bg"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:text="Set"
+                        android:textColor="@color/bright_blue" />
+
+                    <Button
+                        android:id="@+id/cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_bg"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:text="Reset"
+                        android:textColor="@color/bright_blue" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

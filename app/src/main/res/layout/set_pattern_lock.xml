@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_main_activity_color"
+    android:orientation="vertical">
+
+    <com.amnix.materiallockview.MaterialLockView xmlns:lockview="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/patternLockView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        lockview:CORRECT_COLOR="#fff"
+        lockview:LOCK_COLOR="#fff"
+        lockview:WRONG_COLOR="#ff0000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/patternLockView"
+        android:layout_centerHorizontal="true"
+        android:text="Set your pattern lock"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/save_pattern_cont"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:background="#105ca4"
+        android:text="NEXT"
+        android:textColor="#fff" />
+
+</RelativeLayout>
